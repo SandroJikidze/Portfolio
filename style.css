@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    height: 2000px;
+    background: #495878;
+}
+
+                                        /* header */
+.header{
+    padding: 5px;
+    background: #14213d;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 5px solid #fca311;
+    border-right: 5px solid #fca311;
+    border-style: double;
+}
+
+
+                                            /* logo */
+.logo h1{
+    padding: 5px;
+    font-size: 50px;
+    color: white;
+    border-top: 5px solid #fca311;  
+    border-left: 5px solid #fca311;
+    border-radius: 40px;
+
+}
+
+
+
+.logo h1:active{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 40px;
+}
+
+.navigation nav{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+nav h1{
+    color: white;
+    padding: 3px;
+}
+
+nav a{
+    padding: 3px;
+    transition: .2s;
+}
+
+nav a:hover{
+    background: #495878;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 40px;
+    transition: .2s;
+}
+
+
+.cv h1{
+    background: #fca311;
+    border-bottom: 5px solid #495878;
+    border-right: 5px solid #495878;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.cv h1:hover{
+    color: #fca311;
+    background: #495878;
+    border-bottom: 5px solid #fca311;
+    border-right: 5px solid #fca311
+
+}
+
+
+
+                                                /* section1 */
+
+.section1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 5px solid #fca311;
+    border-right: 5px solid #fca311;
+    border-style: double;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.section1photos img{
+    border-bottom: 5px solid #fca311;
+    border-right: 5px solid #fca311;
+    border-radius: 50%;
+}
+
+.section1text{
+    padding: 20px;
+    background:#fca311;
+    border: 8px solid #14213d;
+    border-style: double;
+    border-radius: 20px;
+}
+
+
+                                        /* section skills */
+
+.skills{
+    margin-top: 50px;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+
+}
+
+.skills h1{
+    display: flex;
+    background:#fca311;
+    border: 5px solid #14213d;
+    color: #14213d;;
+    justify-content: space-between;
+    width: 400px;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.skills h1:hover{
+    background: #14213d;
+    border: 5px solid #fca311;
+    transition: .5s;
+}
+
+.skill h1{
+    padding: 5px;
+    border-bottom: 5px solid #fca311;
+    border-right: 5px solid #fca311;
+    border-radius: 40px;
+    font-size: 40px;
+}
+
+
+
+.skill{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+                                    /* form */
+
+.form {
+    border-radius: 50px;
+    background: #14213d;
+    width: 400px;
+    justify-content: center;
+    margin: 150px auto;
+}
+
+.form input{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    border: 3px solid #fca311;
+    border-radius: 10px;
+}
+
+.form label{
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.form textarea{
+    width: 100%;
+    height: 250px;
+    resize: none;
+    border: 3px solid #fca311;
+    border-radius: 10px;
+  
+
+}
+
+
+.messeage input {
+    height: 200px;
+
+}
+.submit input{
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background: #fca311;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+}
+
+.submit input:hover{
+    border-top: 5px solid rgb(255, 255, 255);
+    border-left: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    background: #fca311;
+}
+
+
+                                                    /* foooter */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #14213d
+}
+
+.tel {
+    display: flex;
+}
+
+.footer a,
+.footer p,
+.footer i {
+    font-size: 25px;
+    color: black;
+}
+
+.in i:hover{
+    color: #fca311
+}
+
+                                                    
